@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Formu</title>
+</head>
+
+<body>
+    <!-- Form Ögeleri-->
+    <center>
+        <h1>İletişim Formu</h1>
+        <form>
+            <h3>Kullanıcı Adını Giriniz</h3>
+            <input type="text" id="" placeholder="Kullanıcı Adı" required>
+            <br>
+            <h3>Şifrenizi Giriniz </h3>
+            <input type="password" name="sifre" id="sifre" placeholder="Şifre" required>
+            <br>
+            <h3>E-Mail Giriniz</h3>
+            <input type="email" name="email" id="email" placeholder="E-Mail" required>
+            <h3>Cinsiyet</h3>
+            <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+            <label for="erkek">Erkek</label>
+            <input type="radio" name="cinsiyet" id="kadin" value="kadin">
+            <label for="kadin">Kadın</label>
+            <hr>
+            <h3>Ana Dil</h3>
+            <select>
+                <option value="" disabled selected>Seçiniz..</option>
+                <option value="İngilizce">İngilizce</option>
+                <option value="Almanca">Almanca</option>
+                <option value="Japonca">Japonca</option>
+                <option value="Türkçe">Türkçe</option>
+            </select>
+            <br>
+            <hr>
+            <center><label for="mesaj">Derdini Söylemeyen Dermanının Bulamaz </label></center>
+            <textarea name="mesaj" id="mesaj" cols="70" rows="10" placeholder="Derdini Söylemeyen Dermanını Bulamaz."
+                maxlength="1000"></textarea>
+            <hr>
+            <input type="file" name="Dosya" id="Dosya">
+
+            <hr>
+            <input type="checkbox" name="onay" id="onay" value="kabul">
+            <label for="onay">Okudum,onaylıyorum..</label>
+            <br>
+            <br>
+            <input type="submit" value="Kaydet">
+            <label for=""></label>
+            <br>
+            <br>
+            <input type="reset" value="Temizle">
+
+        </form>
+    </center>
+
+</body>
+
+</html>
